@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+:root{
+    --navColor: #01579B;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+a:focus, a:visited, a:link{
+    color:azure;
+}
+
+.navigator{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    padding-right: 40px;
+    margin-top: 0px;
+    height: 100%;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+li:hover{
+    background-color: #0277BD;
+    transition-property: all;
+    transition-duration: 0.9s;
+}
+
+header{
+    background-color: transparent;
+    margin-top: 0;
+    position: fixed;
+    width: 100vw;
+}
+
+ul{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.images{
+    background-image: url("../img/pic5.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.presentacion{
+    height: fit-content;
+    background-color:rgb(196, 221, 229);
+    overflow: hidden;
+}
+
+.presentacion{
+    padding-left: 5em;
+    padding-top: 5em;
+    padding-right: 5em;
+}
+
+div>img{
+    max-width: 30vw;
+}
+
+.cont_pres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+}
+.cont_pres>div:nth-child(2){
+    padding-left: 5em;
+    max-width: 30em;
+    text-align: center;
+    font-size: 1.2em;
+}
